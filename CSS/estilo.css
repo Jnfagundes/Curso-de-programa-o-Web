@@ -1,0 +1,8 @@
+a{
+    text-decoration: none; /*usamos para remover o sublinhado do texto*/
+    font-family: Arial, Helvetica, sans-serif; /*usamos para escolher o tipo de fonte que será usado*/
+    color: black; /*usamos para definir a cor da fonte*/
+    font-size: 1em; /*usamos para definir o tamanho da fonte*/
+    font-weight: bold; /*usamos para deixar a fonte em negrito*/
+    border: solid 1px black;
+}

@@ -1,8 +1,15 @@
+header{
+    width: 99%;
+    height: 200px;
+    display: flex;
+}
 nav{
-    border: solid 1px black;
     width: 370px;
     height: 50px;
     margin: 0px;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
 }
 a{
     text-decoration: none; /*usamos para remover o sublinhado do texto*/
@@ -10,10 +17,33 @@ a{
     color: black; /*usamos para definir a cor da fonte*/
     font-size: 1em; /*usamos para definir o tamanho da fonte*/
     font-weight: bold; /*usamos para deixar a fonte em negrito*/
-    border: solid 1px black;
+    border: solid 1px gray;
     padding: 10px;
-    display: inline-block;
-    
+    background-color: rgb(188, 191, 192);
 }
 
+#primeiroa{
+    border-radius: 10px 0px 0px 10px;
+}
 
+#ultimoa{
+    border-radius: 0px 10px 10px 0px;
+}
+
+hr{
+    height: 3px;
+    background-color: rgb(94, 233, 186);
+    border: none;
+}
+
+#djrc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(59, 59, 59);
+    margin-left: 720px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
